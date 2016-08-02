@@ -1,5 +1,6 @@
 package google.listviewexample;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,7 +10,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends FragmentActivity implements NotifyItemClicked{
 
-    private ListViewFragment listFragment;
+//    private ListViewFragment listFragment;
     private ClickedFragment clickedFragment;
 
     @Override
@@ -52,6 +53,12 @@ public class MainActivity extends FragmentActivity implements NotifyItemClicked{
 
     @Override
     public void itemClicked(String item) {
-        this.clickedFragment.showItem(item);
+        if(this.clickedFragment != null) {
+            this.clickedFragment.showItem(item);
+        }else{
+            Intent intent = new Intent(this, ClickedActivity.class);
+            intent.putExtra(ClickedActivity.CLICKED, item);
+            startActivity(intent);
+        }
     }
 }

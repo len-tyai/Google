@@ -14,7 +14,7 @@
     <fragment android:name="google.listviewexample.ListViewFragment"
         android:id="@+id/listFragment"
         android:layout_height="wrap_content"
-        android:layout_weight="5"
+        android:layout_weight="10"
         tools:layout="@layout/fragment_list_view"
         android:layout_width="0dp" />
     <!--<fragment android:name="google.listviewexample.ClickedFragment"-->
@@ -22,8 +22,9 @@
         <!--android:layout_height="wrap_content"-->
         <!--android:layout_weight="5"-->
         <!--android:layout_width="0dp" />-->
-    <FrameLayout
-        android:layout_width=""
-        android:layout_height=""></FrameLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/detailContainer" />-->
 
 </LinearLayout>

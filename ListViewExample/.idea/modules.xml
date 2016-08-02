@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ListViewExample.iml" filepath="$PROJECT_DIR$/ListViewExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonhttpreader/jsonhttpreader.iml" filepath="$PROJECT_DIR$/jsonhttpreader/jsonhttpreader.iml" />
     </modules>
   </component>
 </project>
