@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentsForEverything</string>
+    <string name="call">call</string>
+    <string name="open_a_web_page">open a web page</string>
+    <string name="view_contacts">view my contacts</string>
+    <string name="start_the_camera">start the camera</string>
+    <string name="show_home">show home</string>
+</resources>

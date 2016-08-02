@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HelloWorldApplication</string>
+    <string name="hello_world">Hello World! It is working!!!!</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="yellow">yellow</string>
+    <string name="row1">row one</string>
+    <string name="row2">row two</string>
+    <string name="row3">row three</string>
+    <string name="row4">row four</string>
+    <string name="type_here">Type here:</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
