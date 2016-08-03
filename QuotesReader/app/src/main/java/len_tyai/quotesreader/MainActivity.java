@@ -2,6 +2,7 @@ package len_tyai.quotesreader;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.listViewAdapter = new ListViewAdapter();
+        final ListView listView = (ListView) findViewById(R.id.listView);
+        listView.setAdapter(this.listViewAdapter);
         LoadPageTask task = new LoadPageTask(new Command<String>() {
             @Override
             public void execute(String result) {
